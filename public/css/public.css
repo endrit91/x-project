@@ -1,0 +1,281 @@
+#top_container {
+  /*  background-image: url("/Library/public/img/3973-the-world-in-a-book-1920x1200-digital-art-wallpaper.jpg"); */
+  width:100%;
+  background-size: cover;
+  background-color: #e6e2e7;
+}
+
+#posts_top {
+  margin-top: 50px;
+  text-align: center;
+  font-size:;
+}
+#posts_top h1{
+  font-size: ;
+}
+.search_margin_top{
+  margin-top: 5px;
+}
+.center {
+  text-align: center;
+}
+#form_margin_top {
+  margin-top: 20px;
+}
+
+.navbar-right{
+  margin-top: 7px;
+  margin-bottom: auto;
+  text-decoration: none;
+}
+
+.active{
+ background-color:  #e7e7e7 ;
+}
+
+
+h1.statement, h2, h4, p.lead, label{
+  color: #2f3133;  
+}
+p.up_page {
+
+  color: #e8ede9;  
+  border: solid 2px;
+  border-color: #a9f2c1;
+
+}         
+
+
+.table_style {
+  text-align: left;
+  background-color: white;
+}
+
+.statement_block{
+  text-align: center;
+  margin-top: 5%;
+  padding: ;
+  
+}
+table {
+  width: 90%;
+
+}
+
+thead {
+  background-color: #c9f0f0;
+}
+
+#footer { 
+  clear: both;
+  height: 2em; margin: 0px; padding: 5em; 
+  text-align: center; 
+  background: #191c21 ;  color: #D4E6F4;
+}
+
+.error { color: #8D0D19; border: 2px solid #8D0D19;
+  margin: 1em; padding: 1em; 
+}
+.error ul {
+  padding-left: 1em; 
+}
+div.message {
+  border: 2px solid #42f4b3;
+  color: #42f4b3; font-weight: bold;
+  margin: 1em 0 ; padding:1em;
+}
+/* Navigation */
+#navigation { 
+  float: left;
+  max-width: 200px ; height: 100%; 
+  margin-top: 105px; 
+  margin-left: 0px;
+  padding: 0px; 
+  color: #4d4d4d; background: ;
+  
+
+}
+#navigation a { color: #4d4d4d; text-decoration: none; }
+#navigation a:hover { color: #FFFFFF; background-color: #42e8f4; }
+
+
+
+
+
+ul.menu { 
+  margin: 1em 0; padding-left: 0; list-style: none;
+
+}
+
+
+.menu_button {
+  display: block;
+
+  background-color: #f2f2f2 ;
+  max-width: 100%;
+  pointer-events: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px;
+  margin-bottom: 2px;
+  overflow: hidden;
+
+}
+
+
+ul.pages { padding-left: 3em; list-style: none; font-weight: normal; }
+.selected_menu a{
+  background-color: #f9e5e5;
+  
+}
+.selected_page a{
+  background-color: #EAD4D4;
+  
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+.hidden-thing {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.my_account_button{
+
+  margin-top: 10px;
+
+}
+.log_button{
+  margin-top: 5px;
+}
+
+#about {
+  margin-bottom: 40px
+}
+
+.images_container{
+  max-width: 520px;
+  min-height: 250px;
+  margin-right: auto;
+  margin-left: 20%;
+  overflow: hidden
+  
+}
+
+.post{
+  margin-top: 100px;
+}
+
+#single_image {
+  display: ;
+  width: 200px;
+  height: auto;
+  margin-top: 0px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: auto;
+  margin: auto;
+  height: 250px !important;
+}
+.carousel-control {
+  width: 100px;
+}
+.carousel {
+  
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line {
+  max-width:900px; height:2px; background: grey; 
+  margin: 60px auto 40px auto;
+}
+
+#posts_container{ 
+  padding-top: 30px;         
+}
+
+#add_new_post_btn {
+  margin-top: 30px; 
+}
+
+.gallery_img{
+  height: 200px !important;
+  width: auto;
+ }
+
+#gallery_position{
+  margin-top: 30px;
+}
+.time_of_post{
+  color: #8b8d8e;
+}
+
+/* -----------------media---------------- */
+@media (max-width: 767px){
+
+ h2, p.lead, label{
+  color: #e9f0f2;  
+  font-size: 12px; 
+  font-weight: bold;
+
+}
+
+.statement_block{
+ margin-top: 2%;
+}
+h4{ font-size: 14px; 
+  font-weight: bold;
+}
+h1.statement{
+  font-size: 18px; 
+}
+h1{
+  font-size: 24px; 
+  color: #bec6d3;
+}
+
+.search_margin_top{
+  margin-top: 2px;
+  text-underline-position: white;
+}
+
+
+
+
+
+
+.menu_button {
+
+  padding: 3px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.table_style {
+  font-size: 10px;
+
+}
+
+#navigation { 
+  float: none;
+  text-align: center;
+  max-width: auto ; height: auto; 
+  margin-top: 60px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+#form_margin_top {
+  margin-top: 0px;
+}
+
+}
+
