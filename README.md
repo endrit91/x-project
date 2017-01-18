@@ -15,6 +15,6 @@ It has these elements:
 
 This is a photo gallery presentation in which every user has his account were he can create update and delete his posts and can see the photos of other users. 
 
- <img src= "x-project/x-project.png"></img> 
+ <img src= "https://github.com/endrit91/x-project/blob/master/x-project.png"></img> 
 
  
